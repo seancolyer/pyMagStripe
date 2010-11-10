@@ -1,0 +1,24 @@
+pyMagStripe
+v 0.1
+11/10/2010
+
+Prerequisites:
+Python
+wxPython (somewhat optional, strongly recommended)
+Magnetic Card Reader (MSR 206) (can be connected via USB RS 232 serial converter)
+
+
+Running:
+There is a very basic GUI with this program written in wxPython. It's not pretty, I know, I whipped it up quickly.  It's not multithreaded so it will appear to freeze while waiting for you to swipe.
+
+The software was written to my MSR 206 (MSRW-206) from ebay. I can't tell you if it will work with your reader/writer. I'd be happy to help point you in the right direction if it doesn't.
+
+I'm not responsible in any way shape or form for what you do with this software. It is strictly for research.
+
+
+Background:
+I wrote this software based on documentation that was found at: http://www.msrw206.com/software/ . As of this writing, it appears to be taken down. Additionally, there was a fair amount of guess and check.
+
+I didn't like that I couldn't see the source to the demo software. Additionally, I didn't like that it was windows only. (development for this was done on windows, since I needed a reference program)
+
+In general, the software is meant to be functional not refined. I use it primarily for my own experimentation, but thought others might be able to gain from it. If you have issues feel free to contact me, sean at colyer dot name.
