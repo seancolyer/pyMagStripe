@@ -147,7 +147,7 @@ class pyMagStripe():
             if track1.find( chr(WRITE_END)) == -1:
                 track1 = ""
             else:
-                track1 = track1[2:track2.find(chr(WRITE_END))]
+                track1 = track1[2:track1.find(chr(WRITE_END))]
             if track2.find( chr(WRITE_END)) == -1:
                 track2 = ""
             else:
